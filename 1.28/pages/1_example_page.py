@@ -1,3 +1,3 @@
 import streamlit as st
-
-st.image("image.png")
+st.write(os.getcwd())
+st.image("image.jpg")
