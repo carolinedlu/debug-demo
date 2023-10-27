@@ -3,6 +3,9 @@ import os
 from PIL import Image
 
 st.write(os.getcwd())
-image = Image.open('debug-demo/1.28/pages/image.jpg')
+
+path = os.path.dirname(__file__)
+my_file = path+'/image.jpg'
+image = Image.open(my_file)
 
 st.image(image)
