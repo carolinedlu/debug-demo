@@ -3,6 +3,6 @@ import os
 from PIL import Image
 
 st.write(os.getcwd())
-image = Image.open('image.jpg')
+image = Image.open('pages/image.jpg')
 
 st.image(image)
