@@ -7,5 +7,6 @@ st.write(os.getcwd())
 path = os.path.dirname(__file__)
 my_file = path+'/image.jpg'
 image = Image.open(my_file)
+st.write(my_file)
 
 st.image(image)
